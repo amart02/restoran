@@ -123,3 +123,90 @@ button {
 .disp {
     display: none;
 }
+
+@media (max-width: 1185px) {
+    .burger-menu {
+        display: block;
+    }
+    
+    .nav,
+    .cart,
+    .btn,
+    .phone {
+        display: none;
+    }
+    
+    .header-line {
+        justify-content: space-between;
+    }
+    
+    .eda-images {
+        display: none;
+    }
+    
+    .card-title {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cards-holder {
+        display: block;
+    }
+    
+    .card {
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 780px) {
+    .history-holder {
+        display: block;
+    }
+    
+    .menu-item {
+        width: auto;
+    }
+    
+    .container {
+        margin: auto 40px;
+    }
+    
+    .number-item {
+        font-size: 23px;
+    }
+}
+
+.header-down {
+    position: absolute;
+    padding-top: 550px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.doc {
+    background-color: #FF7400;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+    margin-left: 20px;
+}
+
+.doc:hover {
+    background-color: #894b17;
+}
+
+
+
+.down{
+    display: flex;
+    justify-content:  center;
+    margin-top: 200px;
+}
